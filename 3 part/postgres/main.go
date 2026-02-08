@@ -1,16 +1,42 @@
 package main
 
 import (
+	"context"
 	"fmt"
-	"postgresPractice/feature1"
-	"postgresPractice/feature2"
 	"postgresPractice/simple_connection"
+	"postgresPractice/simple_sql"
 )
 
 func main() {
-	fmt.Println("Hello git!")
-	feature1.Feature1()
-	feature2.Feature2()
+	ctx := context.Background()
 
-	simple_connection.CheckConnection()
+	conn, err := simple_connection.CreateConnection(ctx)
+	if err != nil {
+		panic(err)
+	}
+
+	if err := simple_sql.CreateTable(ctx, conn); err != nil {
+		panic(err)
+	}
+
+	//if err := simple_sql.InsertRow(
+	//	ctx,
+	//	conn,
+	//	"Dinner",
+	//	"Shwarma",
+	//	false,
+	//	time.Now(),
+	//); err != nil {
+	//	panic(err)
+	//}
+
+	//if err := simple_sql.UpdateRow(ctx, conn); err != nil {
+	//	panic(err)
+	//}
+
+	if err := simple_sql.DeleteRow(ctx, conn); err != nil {
+		panic(err)
+	}
+
+	fmt.Println("Succeed")
 }
