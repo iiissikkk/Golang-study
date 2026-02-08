@@ -5,6 +5,9 @@ import (
 	"fmt"
 	"postgresPractice/simple_connection"
 	"postgresPractice/simple_sql"
+	"time"
+
+	"github.com/k0kubun/pp/v3"
 )
 
 func main() {
@@ -30,13 +33,36 @@ func main() {
 	//	panic(err)
 	//}
 
-	//if err := simple_sql.UpdateRow(ctx, conn); err != nil {
+	tasks, err := simple_sql.SelectRows(ctx, conn)
+	if err != nil {
+		panic(err)
+	}
+	pp.Println(tasks)
+
+	for _, task := range tasks {
+		if task.ID == 6 {
+			task.Title = "Lunch"
+			task.Description = "Egg"
+			task.Completed = true
+			now := time.Now()
+			task.CompletedAt = &now
+
+			if err := simple_sql.UpdateTask(ctx, conn, task); err != nil {
+				panic(err)
+			}
+			break
+		}
+	}
+
+	//if err := simple_sql.DeleteRow(ctx, conn); err != nil {
 	//	panic(err)
 	//}
 
-	if err := simple_sql.DeleteRow(ctx, conn); err != nil {
+	tasks1, err := simple_sql.SelectRows(ctx, conn)
+	if err != nil {
 		panic(err)
 	}
+	pp.Println(tasks1)
 
 	fmt.Println("Succeed")
 }

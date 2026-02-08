@@ -2,7 +2,6 @@ package simple_sql
 
 import (
 	"context"
-	"time"
 
 	"github.com/jackc/pgx/v5"
 )
@@ -10,10 +9,7 @@ import (
 func InsertRow(
 	ctx context.Context,
 	conn *pgx.Conn,
-	title string,
-	description string,
-	completed bool,
-	createdAt time.Time,
+	task TaskModel,
 ) error {
 
 	// Manual example (hardcoded values):
@@ -34,6 +30,13 @@ func InsertRow(
 	VALUES ($1, $2, $3, $4)
 	`
 
-	_, err := conn.Exec(ctx, sqlQuery, title, description, completed, createdAt)
+	_, err := conn.Exec(
+		ctx,
+		sqlQuery,
+		task.Title,
+		task.Description,
+		task.Completed,
+		task.CreatedAt,
+	)
 	return err
 }
