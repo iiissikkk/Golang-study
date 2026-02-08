@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11cb8abc-9127-474c-8f76-e1aac689d690" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/awesomeProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/defer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/массивы-слайсы-мапы/мапы/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/массивы-слайсы-мапы/массивы/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/массивы-слайсы-мапы/массивы/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/массивы-слайсы-мапы/массивы/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/массивы-слайсы-мапы/слайсы-срезы/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/модули-пакеты/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/модули-пакеты/greeting/bad.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/модули-пакеты/greeting/greeting.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/модули-пакеты/greeting/int.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/модули-пакеты/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/модули-пакеты/user/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/пользовательский ввод/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/пользовательский ввод/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/пользовательский ввод/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/структуры/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1 part/указатели/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/Atomic-Mutex/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/RWMutex /main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/big example/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/big example/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/big example/miner/miner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/big example/postman/postman.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/http/firsthttpserver/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/http/header/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/http/http methods/homework.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/http/http methods/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/http/json/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/http/query params/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/http/request body/homework.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/http/request body/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/http/response body/homework.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/http/response body/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/waitgroup/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/анонимные функции в горутинах/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/горутины-каналы/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/зыкрытие каналов - аксиомы каналов/nil каналы/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/зыкрытие каналов - аксиомы каналов/закрытые каналы/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/интерфейсы/big example/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/интерфейсы/big example/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/интерфейсы/big example/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/интерфейсы/big example/payments/info.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/интерфейсы/big example/payments/methods/bank.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/интерфейсы/big example/payments/methods/crypto.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/интерфейсы/big example/payments/methods/paypal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/интерфейсы/big example/payments/payments.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/интерфейсы/simple exmaple/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/конструкция select {}/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/контекст/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/обработка ошибок/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/обработка ошибок/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/обработка ошибок/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/паника/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/паника/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2 part/паника/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="commands" />
+                    <option name="lastUsedInstant" value="1770509803" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1770508995" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/2" />
+                    <option name="lastUsedInstant" value="1770507653" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="35bBlwBEz9sfpiKWYOjTDSV5HYs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build homework.go (1).executor": "Run",
+    "Go Build.go build homework.go (2).executor": "Run",
+    "Go Build.go build homework.go.executor": "Run",
+    "Go Build.go build main.go (1).executor": "Run",
+    "Go Build.go build main.go (2).executor": "Run",
+    "Go Build.go build main.go (3).executor": "Run",
+    "Go Build.go build main.go (4).executor": "Run",
+    "Go Build.go build main.go (5).executor": "Run",
+    "Go Build.go build main.go.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboarding": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "SHELLCHECK.PATH": "/home/isik/.local/share/JetBrains/GoLand2025.2/Shell Script/shellcheck",
+    "git-widget-placeholder": "commands",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/home/isik",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/isik/GolandProjects/awesomeProject/main.go",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pro/интерфейсы/big example/payments/methods" />
+      <recent name="$PROJECT_DIR$/пользовательский ввод" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2 part" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/interview/strings" />
+      <recent name="$PROJECT_DIR$/pro/зыкрытие каналов - аксиомы каналов/закрытые каналы" />
+      <recent name="$PROJECT_DIR$/pro" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="GoApplicationRunConfiguration" />
+      </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="GoApplicationRunConfiguration">
+          <value>
+            <set>
+              <option value="go build main.go" />
+              <option value="go build main.go (1)" />
+              <option value="go build main.go (3)" />
+              <option value="go build main.go (4)" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="GoApplicationRunConfiguration">
+          <value>
+            <map>
+              <entry key="go build main.go" value="STOPPED" />
+              <entry key="go build main.go (3)" value="STOPPED" />
+              <entry key="go build main.go (4)" value="STOPPED" />
+              <entry key="go build main.go (5)" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go (5)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/http/json/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/http/http methods/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/http/query params/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/3 part/git practice/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/http/restApiBigExample" />
+      <kind value="FILE" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/http/restApiBigExample/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go (5)" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-f466f9b0953e-3d2cccfc42a2-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-252.25557.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-GO-252.25557.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11cb8abc-9127-474c-8f76-e1aac689d690" name="Changes" comment="" />
+      <created>1763369048041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763369048041</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
